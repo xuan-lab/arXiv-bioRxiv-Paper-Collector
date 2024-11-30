@@ -115,11 +115,9 @@ def create_gui():
     status_label = tk.Label(root, text="")
     status_label.pack(pady=5)
 
-    # 作者信息
     author_info = tk.Label(root, text="开发者: xiexuan\n邮箱: xiexuan@njfu.edu.cn")
     author_info.pack(pady=10)
 
-    # 运行主循环
     root.mainloop()
 
 if __name__ == "__main__":
