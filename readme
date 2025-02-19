@@ -1,0 +1,31 @@
+# arXiv & bioRxiv Paper Collector
+
+A toolset for collecting and managing arXiv and bioRxiv papers, including a browser extension for paper collection and a desktop application for batch downloading.
+
+## Features
+
+### Browser Extension (Tampermonkey Script)
+- One-click paper collection from arXiv and bioRxiv
+- Save paper IDs, titles, and timestamps
+- View collected papers in a draggable popup window
+- Select, copy, delete and export collected papers
+- Clean and modern UI with hover effects
+
+### Desktop Application (Paper Downloader)
+- Batch download papers from arXiv
+- User-friendly GUI interface
+- Progress tracking for downloads
+- Customizable download location
+- Support for multiple paper IDs
+
+## Installation
+
+### Browser Extension
+1. Install Tampermonkey browser extension
+2. Create a new script
+3. Copy and paste the content from `arXiv & bioRxiv Paper Collector.js`
+4. Save and enable the script
+
+### Desktop Application
+1. Ensure Python 3.x is installed
+2. Install required packages:
